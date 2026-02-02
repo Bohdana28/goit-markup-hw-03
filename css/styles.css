@@ -85,7 +85,7 @@ img {
   overflow: hidden;
 }
 
-.sections {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -287,9 +287,38 @@ img {
 
 /*=========/OUR TEAM SECTION==========*/
 
+/*=========PORTFOLIO SECTION==========*/
+.portfolio-main-title {
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    width: calc((100% - 2*24px)/3);
+    border: 1px solid #e7e9fc;
+
+}
+.servises-name {
+    padding: 32px;
+}
+.portfolio-title {
+    margin-bottom: 8px;
+
+}
+/*=========/PORTFOLIO SECTION==========*/
+
 /*=========FOOTER==========*/
 .page-footer {
     background-color: rgb(var(--secondary-body-bg-color));
+    padding: 100px 0;
+}
+.footer-logo {
+    display: block;
+    margin-bottom: 18px;
 }
 
 .span-two {
@@ -297,6 +326,8 @@ img {
 }
 .footer-prg {
     color: rgb(244 244 253);
+    max-width: 264px;
+    
 }
 
 /*=========/FOOTER==========*/
